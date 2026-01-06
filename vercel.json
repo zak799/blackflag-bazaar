@@ -1,0 +1,42 @@
+{
+  "version": 2,
+
+  "functions": {
+    "api/*.php": {
+      "runtime": "vercel-php@8.3.29"
+    },
+    "public/*.php": {
+      "runtime": "vercel-php@8.3.29"
+    },
+    "owneracc/*.php": {
+      "runtime": "vercel-php@8.3.29"
+    }
+  },
+
+  "routes": [
+    {
+      "src": "^/$",
+      "dest": "/public/index.php"
+    },
+
+    {
+      "src": "^/api/(.*)$",
+      "dest": "/api/$1"
+    },
+
+    {
+      "src": "^/owneracc/?$",
+      "dest": "/owneracc/index.php"
+    },
+
+    {
+      "src": "^/(.*\\.php)$",
+      "dest": "/$1"
+    },
+
+    {
+      "src": "^/assets/(.*)$",
+      "dest": "/public/assets/$1"
+    }
+  ]
+}
