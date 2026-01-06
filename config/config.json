@@ -1,0 +1,70 @@
+{
+    "apiKey": "ak_4CUwf8mRg8rWzCAYn7Be2khwHa2UNFFC72suHc8f",
+    "adminPassword": "$2y$10$X55ew/KCCx7KiGBFFQ9rxewlkSJjB8By6RXJHDKxL8dXetsIap6ae",
+    "apiBaseUrl": "https://upgrader.cc/api",
+    "branding": {
+        "siteName": "BLACKFLAG BAZAAR",
+        "tagline": "Get access to Spotify Premium for life with a one time payment.",
+        "supportEmail": "support@yourdomain.com",
+        "logo": "./assets/images/logo.png"
+    },
+    "deliveryInstructions": "You will receive an upgrade key in your email. Copy this key and paste it in Step 2 below.",
+    "colors": {
+        "primary": "#000000",
+        "primaryDark": "#000000",
+        "background": "#ffffff",
+        "text": "#191414",
+        "textSecondary": "#666666"
+    },
+    "countries": [],
+    "features": [
+        {
+            "title": "Instant Activation",
+            "description": "Get Premium access within 5-10 minutes of submission"
+        },
+        {
+            "title": "Secure Service",
+            "description": "Bank-level encryption and secure payment processing"
+        },
+        {
+            "title": "24/7 Support",
+            "description": "Round-the-clock customer support for all your needs"
+        },
+        {
+            "title": "Free Replacements",
+            "description": "Unlimited free replacements if any issues occur"
+        },
+        {
+            "title": "No Ads",
+            "description": "Enjoy uninterrupted music without any advertisements"
+        },
+        {
+            "title": "Offline Listening",
+            "description": "Download and listen to your favorite tracks offline"
+        },
+        {
+            "title": "Unlimited Skips",
+            "description": "Skip as many songs as you want, anytime"
+        },
+        {
+            "title": "High Quality Audio",
+            "description": "Stream in high-quality audio up to 320kbps"
+        }
+    ],
+    "packages": [
+        {
+            "id": "single-key",
+            "name": "Single Key Package",
+            "quantity": 1,
+            "description": "Single key package with Upgrade and Renewal Key.",
+            "price": "25",
+            "enabled": true,
+            "paymentLinks": {
+                "stripe": "https://buy.stripe.com/eVq4gA5y09nRbTY0Vg5Vu07",
+                "paypal": "",
+                "crypto": ""
+            },
+            "popular": true
+        }
+    ]
+}
