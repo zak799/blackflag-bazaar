@@ -2,13 +2,13 @@
 // Serve JavaScript with config values baked in from config.json
 
 // Load error handler for consistent error logging
-require_once __DIR__ . '/../../includes/error-handler.php';
+require_once __DIR__ . '/../../../includes/error-handler.php';
 
 header('Content-Type: application/javascript; charset=utf-8');
 header('Cache-Control: no-cache, no-store, must-revalidate');
 
 // Load config from JSON file
-$configPath = __DIR__ . '/../../config/config.json';
+$configPath = __DIR__ . '/../../../config/config.json';
 $config = [];
 
 if (file_exists($configPath)) {

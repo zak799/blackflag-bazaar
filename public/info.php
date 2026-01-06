@@ -1,7 +1,7 @@
 <?php
 $pageTitle = "Check Key Status";
 $pageDescription = "Check your Spotify Premium upgrade key status.";
-require_once __DIR__ . "/includes/header.php";
+require_once __DIR__ . "/../includes/header.php";
 ?>
   <main style="max-width: 1000px; margin: 0 auto; padding: 3rem 1rem; min-height: calc(100vh - 72px);">
     <div style="text-align: center; margin-bottom: 3rem;" class="animate-fade-in">
@@ -124,7 +124,7 @@ require_once __DIR__ . "/includes/header.php";
 
   </main>
 
-<?php require_once __DIR__ . "/includes/footer.php"; ?>
+<?php require_once __DIR__ . "/../includes/footer.php"; ?>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     initIcons();

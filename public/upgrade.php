@@ -2,7 +2,7 @@
 $pageTitle = "Upgrade to Premium";
 $pageDescription = "Upgrade your Spotify account to Premium in minutes.";
 $extraCss = ["./assets/css/country-dropdown.css"];
-require_once __DIR__ . "/includes/header.php";
+require_once __DIR__ . "/../includes/header.php";
 ?>
   <main style="padding: 4rem 0; background: var(--color-neutral-50); min-height: calc(100vh - 72px);">
     <div class="container" style="max-width: 960px;">
@@ -235,7 +235,7 @@ require_once __DIR__ . "/includes/header.php";
     </div>
   </main>
 
-<?php require_once __DIR__ . "/includes/footer.php"; ?>
+<?php require_once __DIR__ . "/../includes/footer.php"; ?>
 <script src="./assets/js/country-dropdown.js" defer></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {

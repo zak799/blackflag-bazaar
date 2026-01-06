@@ -1,4 +1,4 @@
-<?php require_once __DIR__ . '/includes/config-loader.php'; ?>
+<?php require_once __DIR__ . '/../includes/config-loader.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
